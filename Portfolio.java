@@ -3,6 +3,8 @@ import java.util.ArrayList;
 public class Portfolio {
     private ArrayList<Project> projects;
     
+    ArrayList<Object>myArray = new ArrayList<Object>();
+
     public Portfolio() {
         projects = new ArrayList<Project>();
     }
@@ -18,4 +20,5 @@ public class Portfolio {
     public ArrayList<Project> setProjects() {
         return projects;
     }
+
 }
