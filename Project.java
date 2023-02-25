@@ -1,7 +1,7 @@
 class Project {
+    
+    
     // Create a Project class that has the fields of name and description.
-
-
     private String Name;
     private String Description;
     private double Cost;
